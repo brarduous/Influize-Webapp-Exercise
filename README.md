@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Critical Environment Variables
+
+This project relies on environment variables for the API Key to the Influize App. Create a .env file with the contents of the .env.SAMPLE file included in the root of the directory. Populate REACT_APP_API_KEY with your generated key. Populate REACT_APP_API_BASE_URL with the base URL for the influize api with trailing slash (important)
+
 ## Available Scripts
 
 In the project directory, you can run:
